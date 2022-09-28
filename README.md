@@ -17,7 +17,7 @@ http://git.vpgame.cn/infra/vp-java-api-log
 },
 {
     "type": "vcs",
-    "url": "git@github.com:haowenzou/aliyun-sdk-sls.git"
+    "url": "git@github.com:haowenzou/uuu9-aliyun-sdk-sls.git"
 }
 ```
 
