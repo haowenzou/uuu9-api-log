@@ -13,23 +13,23 @@ http://git.vpgame.cn/infra/vp-java-api-log
 ```json
 {
     "type": "vcs",
-    "url": "git@git.vpgame.cn:infra/php-api-log.git"
+    "url": "git@github.com:haowenzou/uuu9-php-api-log.git"
 },
 {
     "type": "vcs",
-    "url": "git@git.vpgame.cn:vendor/aliyun-sdk-sls.git"
+    "url": "git@github.com:haowenzou/aliyun-sdk-sls.git"
 }
 ```
 
 2 运行命令
 ```bash
-composer require vpgame/vp-php-api-log
+composer require uuu9/php-api-log
 ```
 
 3 `bootstrap/app.php`
 ```php
 //注册ApiLog
-$app->register(Vpgame\VpPhpApiLog\Provider\ApiLogServiceProvider::class);
+$app->register(Uuu9\PhpApiLog\Provider\ApiLogServiceProvider::class);
 ```
 
 4 `app/Providers/AppServiceProvider.php`
@@ -65,10 +65,10 @@ SLS_API_LOG_PROJECT=null
 
 
 
-6 升级`vpgame/signature`
+6 升级`uuu9/signature`
 ```bash
 //版本 >= 0.3.1
-composer update vpgame/signature
+composer update uuu9/signature
 ```
 
 ## 透传头域
