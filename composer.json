@@ -1,0 +1,38 @@
+{
+    "name": "uuu9/php-api-log",
+    "type": "library",
+    "description": "uuu9 api log php sdk",
+    "authors": [
+        {
+            "name": "zhw",
+            "email": "980334125@qq.com"
+        }
+    ],
+    "require": {
+        "uuu9/aliyun-sdk-sls": "*",
+        "php": ">=7.0.12",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "laravel/lumen-framework": "5.3.1",
+        "webpatser/laravel-uuid": "2.*",
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uuu9\\PhpApiLog\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "repositories": {
+        "0": {
+            "type": "vcs",
+            "url": "git@github.com:haowenzou/uuu9-aliyun-sdk-sls.git"
+        }
+    }
+}
